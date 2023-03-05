@@ -64,6 +64,16 @@ nav a:hover
     text-align: center;
 
 }
+
+#hero-msg h3
+{
+    text-align: center;
+    font-family: "Lora", Arial, Helvetica, sans-serif;
+    color: white;
+    
+
+}
+
 #hero-msg h4
 {
     text-align: center;
@@ -157,6 +167,47 @@ nav
     font-size: .8em;
     padding-bottom: 15px;
 }
+/*Rivers css*/
+
+#salmon-river-img
+{
+    float: left;
+    margin-top: 100px;
+}
+#salmon-river-msg h1
+{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+#utah-river-img
+{
+    float: left;
+    margin-top: 100px;
+}
+
+#utah-river-msg h1
+{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 60px;
+}
+
+#arizona-river-img
+{
+    float: left;
+    margin-top: 100px;
+}
+
+#arizona-river-msg h1
+{
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 60px;
+}
+
+
 footer
 {
     background-color: #05668D;
