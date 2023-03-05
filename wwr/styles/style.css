@@ -207,7 +207,7 @@ nav
     margin-bottom: 60px;
 }
 
-
+/*Footer*/
 footer
 {
     background-color: #05668D;
@@ -240,6 +240,8 @@ footer .social img
 {
     padding-top: 15px;
 }
+
+/*Aditional CSS*/
 .home-title
 {
     color: white;
