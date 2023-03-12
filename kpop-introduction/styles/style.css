@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Shantell+Sans:ital@1&display=swap');
+#content
+{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+/*Header*/
+header
+{
+    background-color: #CDB4DB;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav a
+{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+}
+nav a:hover
+{
+    background-color: #BDE0FE;
+    color: white ;
+
+}
+
+#logo_link
+{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo
+{
+    width: 80px;
+}
+
+.icon
+{
+    width: 80px;
+    padding-top: 10px;
+}
+/*Home Message*/
+#home
+{
+ background-color: #A2D2FF;
+}
+#home-msg h1
+{
+    font-family: 'Gloock','Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+
+}
+
+#home-msg h3
+{
+    font-family: "Shantell Sans", Arial, Helvetica, sans-serif;
+    color: white;
+
+
+}
+/*Groups*/
+#groups
+{
+    padding: 150px 100px;
+}
+#group-msg h1
+{
+    font-family: 'Gloock','Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+    color: #A2D2FF
+
+}
+#group-msg h3
+{
+    font-family: "Shantell Sans", Arial, Helvetica, sans-serif;
+    color: #FFAFCC;
+
+}
+/*Soloist*/
+#soloist
+{
+    padding: 150px 100px;
+}
+#soloist-msg h1
+{
+    font-family: 'Gloock','Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+    color: #A2D2FF
+
+}
+
+#soloist-msg h3
+{
+    font-family: "Shantell Sans", Arial, Helvetica, sans-serif;
+    color: #FFAFCC;
+    align-items: center;
+}
+/*Images*/
+.link-images
+{   
+    width: 375px;
+    float: right;
+    margin-left: 25px;
+    margin-bottom: -25px;
+}
+/*Groups Page*/
+#groups-home h1
+{
+    font-family: 'Gloock','Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+    color: #A2D2FF
+}
+#groups-home h2
+{
+    font-family: "Shantell Sans", Arial, Helvetica, sans-serif;
+    color: #A2D2FF;
+    text-align: center;
+}
+
+#Seventeen
+{
+    padding: 150px 100px;
+}
+.seventeen-image
+{
+    width: 375px;
+    float: right;
+    margin-left: 25px;
+    margin-bottom: -25px;
+}
+#Twice
+{
+    padding: 150px 100px;
+}
+.twice-image
+{
+    width: 375px;
+    float: right;
+    margin-left: 25px;
+    margin-bottom: -25px;
+}
+/*Soloist Page*/
+#soloist-home h1
+{
+    font-family: 'Gloock','Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+    color: #A2D2FF
+}
+#soloist-home h2
+{
+    font-family: "Shantell Sans", Arial, Helvetica, sans-serif;
+    color: #A2D2FF;
+    text-align: center;
+}
+#Yena
+{
+    padding: 150px 100px;
+}
+.Yena-image
+{
+    width: 375px;
+    float: right;
+    margin-left: 25px;
+    margin-bottom: -25px;
+}
+#Eunbi
+{
+    padding: 150px 100px;
+}
+.Eunbi-image
+{
+    width: 375px;
+    float: right;
+    margin-left: 25px;
+    margin-bottom: -25px;
+}
+/*Footer*/
+footer
+{
+    background-color: #CDB4DB;
+    color: #EBF2FA;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*--primary-color: #BDE0FE   ;
+  --secondary-color: #CDB4DB;
+  --accent1-color: #A2D2FF;
+  --accent2-color: #FFAFCC;*/
