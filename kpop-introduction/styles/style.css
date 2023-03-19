@@ -78,8 +78,8 @@ nav a:hover
     width: auto;
     height: auto;
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 150px 400px;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr auto;
     margin-top: 30px;
     
 }
