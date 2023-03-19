@@ -11,12 +11,19 @@ header
     display: grid;
     grid-template-columns: 150px auto;
 }
+nav
+{
+    display: flex;
+    justify-content: space-around;
+}
 nav a
 {
     text-align: center;
     color: white;
     text-decoration: none;
-    padding: 50px;
+    padding: 35px;
+    font-size: 50px;
+
 }
 nav a:hover
 {
@@ -34,7 +41,7 @@ nav a:hover
 
 .logo
 {
-    width: 80px;
+    width: 120px;
 }
 
 .icon
@@ -45,12 +52,13 @@ nav a:hover
 /*Home Message*/
 #home
 {
- background-color: #A2D2FF;
+    background-color: #A2D2FF;
+    padding: 50px;
 }
 #home-msg h1
 {
     font-family: 'Gloock','Times New Roman', Times, serif;
-    font-size: 2em;
+    font-size: 75px;
     text-align: center;
     color: white;
 
@@ -60,47 +68,94 @@ nav a:hover
 {
     font-family: "Shantell Sans", Arial, Helvetica, sans-serif;
     color: white;
-
+    font-size: 25px;
 
 }
 /*Groups*/
 #groups
 {
-    padding: 150px 100px;
+    background-color: #CDB4DB;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 150px 400px;
+    margin-top: 30px;
+    
 }
 #group-msg h1
 {
     font-family: 'Gloock','Times New Roman', Times, serif;
-    font-size: 2em;
+    font-size: 50px;
     text-align: center;
-    color: #A2D2FF
-
+    margin-left: 500px;
+    color: white;
 }
 #group-msg h3
 {
     font-family: "Shantell Sans", Arial, Helvetica, sans-serif;
-    color: #FFAFCC;
+    color: white;
+    font-size: 30px;
+    padding: 25px;
 
 }
+
+.group-image
+{
+    float: right;
+    padding: 25px;
+    margin-top: 140px;
+    transition: transform .5s;
+
+}
+
+.group-image:hover
+{
+    opacity: .6;
+    transform: scale(1.1);
+}
+
 /*Soloist*/
 #soloist
 {
-    padding: 150px 100px;
+    background-color: #FFAFCC;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr auto;
+    margin-top: 30px;
 }
 #soloist-msg h1
 {
     font-family: 'Gloock','Times New Roman', Times, serif;
-    font-size: 2em;
+    font-size: 50px;
     text-align: center;
-    color: #A2D2FF
+    margin-left: 480px;
+    color: white;
 
 }
 
 #soloist-msg h3
 {
     font-family: "Shantell Sans", Arial, Helvetica, sans-serif;
-    color: #FFAFCC;
-    align-items: center;
+    color: white;
+    font-size: 30px;
+    padding: 25px;
+}
+
+.soloist-image
+{
+    float: right;
+    padding: 25px;
+    margin-top: 150px;
+    transition: transform .5s;
+}
+
+.soloist-image:hover
+{
+    opacity: .6;
+    transform: scale(1.1);
 }
 /*Images*/
 .link-images
@@ -189,11 +244,18 @@ footer
     background-color: #CDB4DB;
     color: #EBF2FA;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 40px;
+    text-decoration: none;
 }
+footer p
+{
+    text-decoration: none;
+}
+
 /*--primary-color: #BDE0FE   ;
   --secondary-color: #CDB4DB;
   --accent1-color: #A2D2FF;
