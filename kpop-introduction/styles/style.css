@@ -242,20 +242,23 @@ nav a:hover
 footer
 {
     background-color: #CDB4DB;
-    color: #EBF2FA;
+    color: white;
     padding: 25px 50px;
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 40px;
-    text-decoration: none;
 }
-footer p
+footer a
 {
     text-decoration: none;
+    color: white;
 }
-
+ footer a:hover
+ {
+    text-decoration: underline;
+ }
 /*--primary-color: #BDE0FE   ;
   --secondary-color: #CDB4DB;
   --accent1-color: #A2D2FF;
