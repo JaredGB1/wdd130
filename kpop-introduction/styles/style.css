@@ -166,41 +166,132 @@ nav a:hover
     margin-bottom: -25px;
 }
 /*Groups Page*/
-#groups-home h1
+#hero 
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top: -100px; 
+}
+#hero-box
+{
+    grid-column: 1/4;
+    grid-row: 1/5;
+    z-index: -1;
+}
+#hero-img
+{
+    width: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+#hero-msg
+{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    background-color:#BDE0FE; /* Fallback color */
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    text-align: center;
+    
+}
+#hero-image
+{
+    width: 100%
+}
+#hero-msg h1
 {
     font-family: 'Gloock','Times New Roman', Times, serif;
-    font-size: 2em;
+    font-size: 75px;
     text-align: center;
-    color: #A2D2FF
+    color: white
 }
-#groups-home h2
+#hero-msg h2
 {
     font-family: "Shantell Sans", Arial, Helvetica, sans-serif;
-    color: #A2D2FF;
+    color: white;
+    font-size: 30px;
     text-align: center;
 }
 
 #Seventeen
 {
-    padding: 150px 100px;
+    background-color: #FFAFCC;
+    display: grid;
+    grid-template-columns: 4fr 2fr 3fr;
+    grid-template-rows: 150px 4fr;
+    margin-top: 50px;
 }
+#seventeen-msg
+{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    font-family: "Shantell Sans", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    padding: 25px;
+}
+
+#seventeen-title
+{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-family: 'Gloock','Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+
+}
+
 .seventeen-image
 {
-    width: 375px;
-    float: right;
-    margin-left: 25px;
-    margin-bottom: -25px;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 90%;
+    height: 70%;
+    margin-top: 75px;
+    margin-left: 20px;
 }
 #Twice
 {
-    padding: 150px 100px;
+    background-color: #BDE0FE ;
+    display: grid;
+    grid-template-columns: 4fr 2fr 3fr;
+    grid-template-rows: 150px 4fr;
+    margin-top: 50px;
 }
+#twice-msg
+{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    font-family: "Shantell Sans", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    padding: 25px;
+}
+
+#twice-title
+{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-family: 'Gloock','Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+
+}
+
 .twice-image
 {
-    width: 375px;
-    float: right;
-    margin-left: 25px;
-    margin-bottom: -25px;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 90%;
+    height: 70%;
+    margin-top: 75px;
+    margin-left: 20px;
 }
 /*Soloist Page*/
 #soloist-home h1
